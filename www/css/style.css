@@ -3,3 +3,9 @@ body{
     font-size: center;
     font-family:verdana;
 }
+input{
+    display: block;
+}
+.a, .b{
+    display: block;
+}
