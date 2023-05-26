@@ -12,6 +12,7 @@
     </script>
 </head>
 <body>
+    <div class="p">
     <div id="inserts">
         <input type="text" placeholder="Qual o seu nome?" class="inpettext" id="inputnome">
 
@@ -33,11 +34,16 @@
             <option>R</option>
             <option>I</option>
         </select>
-        <input type="button" value="Cadastrar">
+        <input type="button" value="Cadastrar" onclick="cadastrar()">
+        <input type="button" value="listar" onclick="listar()">
+    </div>
     </div>
     </div>
     <div id="saida">
         <p id="nomealuno"></p>
+        <p id="exibirdisciplina"></p>
+        <p id="exibirmencao"></p>
+    </div>
     </div>
 </body>
 </html>
